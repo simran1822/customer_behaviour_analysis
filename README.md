@@ -1,59 +1,99 @@
 # customer_behaviour_analysis
 Data Analytics project showcasing customer behaviour analysis using Python , SQL and Power BI 
 
-Overview
+🔍 Overview
 
-   This project demonstrates a complete end-to-end data analytics workflow — from loading raw data in Python to building an          interactive Power BI dashboard.
-   The goal is to clean, analyze, and visualize data to uncover insights and present them in a business-ready report.
-   The project includes:
+This project demonstrates a complete end-to-end data analytics workflow — from loading raw data in Python to building an interactive Power BI dashboard.
+The goal is to clean, analyze, and visualize data to uncover insights and present them in a business-ready report.
+The project includes:
 
-   1.  Data loading and exploration
+       1.    Data loading and exploration
 
-   2.  Data cleaning and preprocessing
+       2.    Data cleaning and preprocessing
 
-   3.  Running SQL queries in SQL Server
+       3.    Running SQL queries in SQL Server
 
-   4.  Data modeling
+       4.    Data modeling
 
-   5.  Power BI dashboard creation
+       5.    Power BI dashboard creation
 
+🛠️ Tools & Technologies
 
- How to Use This Project
+    1.  Programming & Data Processing
 
- 1.  Clone the repository
+        . Python (Pandas, NumPy, Matplotlib/Seaborn)
 
-         git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-         cd customer-trends-data-analysis-SQL-Python-PowerBI
+        . Jupyter Notebook / VS Code
 
-2.  Open Customer_Shopping_Behavior_Analysis.ipynb notebook
+    2. Database
 
-     This file contains:
+        . Microsoft SQL Server
 
-     .  Data Import
+        . SQL Server Management Studio (SSMS)
 
-     . Data exploration
+    3. Visualization
 
-     . Data cleaning
+        . Power BI Desktop
 
-     . Connection to SQL Database
+    4. Version Control
 
- 3. Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
+        . Git & GitHub
 
-     . Create a database in SQL
+📘 Project Workflow
+1. Data Loading (Python)
 
-     . Run Python code to load data into SQL database
+ > Imported dataset using Pandas
 
-     . Open customer_behavior_sql_queries.sql
+ > Checked datatypes, missing values, duplicates
 
-     . Answer Business Questions using SQL Queries
+ > Basic exploratory analysis to understand structure
 
- 4. Connect the SQL Database to Power BI
+2. Exploratory Data Analysis (EDA)
 
-     . Open customer_behavior_dashboard.pbix
+ > Summary statistics
 
-     . Create interactive dashboard in Power BI
+ > Trend analysis & distribution analysis
 
-  5. Create Project Report and Presentation
+ > Outlier detection
 
-     . Create project report
+> Correlation matrix
 
+> Visualizations for patterns and anomalies
+
+3. Data Cleaning
+
+> Handled missing values
+
+> Removed duplicates
+
+> Standardized column names
+
+> Converted datatypes
+
+> Cleaned categorical and numerical features
+
+4. SQL Queries (SQL Server)
+
+> Loaded cleaned data into SQL Server
+
+> Performed filtering, grouping, aggregation
+
+> Created views and performed analytical queries
+
+> Generated insights using advanced SQL 
+
+5. Power BI Dashboard
+
+> Connected SQL/Python output to Power BI
+
+> Designed interactive visuals:
+
+> KPIs
+
+> Bar/Line charts
+
+> Filters/Slicers
+
+> Drill-down reports
+
+> Built user-friendly dashboard highlighting key insights
